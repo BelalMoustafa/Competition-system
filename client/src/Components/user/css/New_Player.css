@@ -1,0 +1,61 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+
+    border-radius: 8px;
+    background-color: #1e1e1e;
+
+    color: #fff;
+}
+
+.alert {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: #fff;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    margin-bottom: 20px;
+}
+
+select,
+input[type="text"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+}
+
+select {
+    background-color: #444;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
